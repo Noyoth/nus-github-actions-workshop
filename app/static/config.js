@@ -7,19 +7,19 @@ var CONFIG = {
 
     items: [
         { type: "commit", color: "#238636", pts: 10, weight: 50, sym: "\u2713" },
-        { type: "pr",     color: "#58a6ff", pts: 25, weight: 25, sym: "PR" },
+        { type: "pr",     color: "#06121f", pts: 25, weight: 25, sym: "PR" },
         { type: "star",   color: "#e3b341", pts: 50, weight: 5,  sym: "\u2605" },
         { type: "bug",    color: "#f85149", pts: 0,  weight: 20, sym: "\u2715", bad: true }
     ],
 
     colors: {
-        background: "#0d1117",
+        background: "#0d7417",
         gridLines: "#161b22",
         text: "#c9d1d9",
         headings: "#f0f6fc",
         muted: "#8b949e",
         dimmed: "#6e7681",
-        hearts: "#f85149",
+        hearts: "#f25132",
         startButton: "#238636"
     }
 };
